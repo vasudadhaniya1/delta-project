@@ -1,0 +1,29 @@
+#container{
+    height: 600px;
+    width: 40%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#yell{
+    /* flex-basis: 100px; */
+    flex-shrink: 4;
+   
+}
+#bl{
+    flex-basis: 100px;
+    
+}

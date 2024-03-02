@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment in html</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student Information</caption>
+        <thead>
+            <tr>
+                <td rowspan="6">Info</td>
+                <td rowspan="2">Name</td>
+                <td colspan="2">Address</td>
+            </tr>
+            <tr>
+                
+                <th>city</th>
+                <th>House</th>
+            </tr>
+            </thead>
+        <tbody>
+             <tr> 
+                <td></td>              
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+             </tr>
+             <tr>
+                <td></td>  
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+             </tr>
+             <tr>
+                <td></td>  
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+             </tr>
+             <tr>
+                <td></td>  
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+             </tr>
+        </tbody>
+    </table>
+    <br><hr>
+
+    <form action="/action">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="sex">Sex:</label> 
+            <input type="radio" id="male" name="sex">
+            <label for="male">male</label>
+            <input type="radio" id="Female" name="sex">
+            <label for="Female">Female</label><br>
+
+           <label for="country">Country:</label>
+            <select name="Country" id="country">
+                <option>Select an option</option>
+                <option value="ind">India</option>
+                <option value="us">Usa</option>
+                <option value="ru">Rush</option>
+            </select>
+            <br>
+            <label for="feedback">Message</label>
+            <textarea id="feedback" name="feedbck"></textarea><br>
+
+            <input type="checkbox" id="youtube" name="sub">
+            <label for="youtube">Subscribe?</label><br>
+
+            <button type="submit">Submit</button>
+            
+        </div>
+    </form>
+    <br><hr>
+
+    <form action="/action">
+         <div>
+            <h2>Feedback Form</h2>
+
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Write your name" id="name" name="name">
+          <br>
+            <label for="Email">Email:</label>
+            <input type="email" placeholder="Write your email" id="email" name="email">
+           <br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+
+            Rate us our of 5:
+            <input type="radio" name="rate" id="1">
+            <label for="1">1</label>
+            <input type="radio" name="rate" id="2">
+            <label for="2">2</label>
+            <input type="radio" name="rate" id="3">
+            <label for="3">3</label>
+            <input type="radio" name="rate" id="4">
+            <label for="4">4</label>
+            <input type="radio" name="rate" id="5">
+            <label for="5">5</label> <br>
+
+            <button type="submit">Send your message</button>
+         </div>
+    </form>
+    
+</body>
+</html>
